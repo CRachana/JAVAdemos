@@ -1,0 +1,31 @@
+
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: grey;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 70%;  
+  padding: 10px;  
+  margin: 5px;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: white;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }    
+}  
+.registerbutton {  
+  background-color: white;  
+  text-align: ;
+  color: white;    
+  margin: 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 70%;    
+}   
