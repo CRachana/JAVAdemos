@@ -1,0 +1,129 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com</groupId>
+  <artifactId>final1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+<properties>
+<maven.compiler.target>1.8</maven.compiler.target>
+<maven.compiler.source>1.8</maven.compiler.source>
+<!-- <failOnMissingWebXml>false</failOnMissingWebXml> -->
+<spring.version>5.2.8.RELEASE</spring.version>
+<hibernate.version>5.2.11.Final</hibernate.version>
+<hibernate.validator>5.4.1.Final</hibernate.validator>
+<jstl.version>1.2.1</jstl.version>
+<tld.version>1.1.2</tld.version>
+<servlets.version>3.1.0</servlets.version>
+<jsp.version>2.3.1</jsp.version>
+<log4j-core.version>2.6.2</log4j-core.version>
+<junit.version>4.11</junit.version>
+<mysql-connector.version>5.5</mysql-connector.version>
+</properties>
+
+<dependencies>
+<dependency>
+<groupId>org.springframework</groupId>
+<artifactId>spring-webmvc</artifactId>
+<version>${​​spring.version}​​</version>
+</dependency>
+<!-- Spring ORM -->
+<dependency>
+<groupId>org.springframework</groupId>
+<artifactId>spring-orm</artifactId>
+<version>${​​spring.version}​​</version>
+</dependency>
+
+
+
+
+<!-- Hibernate Core -->
+<dependency>
+<groupId>org.hibernate</groupId>
+<artifactId>hibernate-core</artifactId>
+<version>${​​hibernate.version}​​</version>
+</dependency>
+
+
+
+
+<!-- Hibernate-C3P0 Integration -->
+<dependency>
+<groupId>org.hibernate</groupId>
+<artifactId>hibernate-c3p0</artifactId>
+<version>${​​hibernate.version}​​</version>
+</dependency>
+
+
+
+
+
+<!-- Hibernate Validator -->
+<dependency>
+<groupId>org.hibernate</groupId>
+<artifactId>hibernate-validator</artifactId>
+<version>${​​hibernate.validator}​​</version>
+</dependency>
+<!-- JSTL Dependency -->
+<dependency>
+<groupId>javax.servlet.jsp.jstl</groupId>
+<artifactId>javax.servlet.jsp.jstl-api</artifactId>
+<version>${​​jstl.version}​​</version>
+</dependency>
+<!-- TLD Dependency -->
+<dependency>
+<groupId>taglibs</groupId>
+<artifactId>standard</artifactId>
+<version>${​​tld.version}​​</version>
+</dependency>
+
+
+
+
+<!-- Servlet Dependency -->
+<dependency>
+<groupId>javax.servlet</groupId>
+<artifactId>javax.servlet-api</artifactId>
+<version>${​​servlets.version}​​</version>
+<scope>provided</scope>
+</dependency>
+
+
+
+
+<!-- JSP Dependency -->
+<dependency>
+<groupId>javax.servlet.jsp</groupId>
+<artifactId>javax.servlet.jsp-api</artifactId>
+<version>${​​jsp.version}​​</version>
+<scope>provided</scope>
+</dependency>
+
+
+
+
+<!-- JUnit Dependency -->
+<dependency>
+<groupId>junit</groupId>
+<artifactId>junit</artifactId>
+<version>${​​junit.version}​​</version>
+<scope>test</scope>
+</dependency>
+
+
+<!-- log4j Dependency -->
+<dependency>
+<groupId>org.apache.logging.log4j</groupId>
+<artifactId>log4j-core</artifactId>
+<version>${​​log4j-core.version}​​</version>
+</dependency>
+
+<dependency>
+<groupId>mysql</groupId>
+<artifactId>mysql-connector-java</artifactId>
+<version>8.0.11</version>
+</dependency>
+
+</dependencies>
+
+</project>
+  
