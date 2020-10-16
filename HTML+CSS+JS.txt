@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="validation.css">
+<script language="javascript">
+function validation() {
+var userName=document.getElementById("username").value;
+var password=document.getElementById("pwd").value;
+var res=true;
+if(userName.length > 5 && password.length > 5) {
+    console.log("Thank you for the registion");
+    return res=true;
+} else {
+    alert("Warning!..Username and Password length should be greater than 5");
+    return res=false;
+}
+  return res;
+}
+</script>
+</head>
+<body>
+<h1 class="h1" align= "centre" >Registration Page</h1><br><br><br><br>
+<form name="login" action="http://www.google.com" method="get">
+<label class="label">Enter username  </label><br><br>
+<input type="text" placeholder="Type username" id="username" name="userid" /><br><br><br>
+<label class="label">Enter password  </label><br><br>
+<input type="password" placeholder="Type password" id="pwd" name="passwordid" /><br><br>
+<br><br>
+<input class="button" type="submit" onclick="return validation()" value="Submit" />
+</form>
+
+
+
+
+ 
